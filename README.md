@@ -67,11 +67,8 @@ headers: {
 ---
 
 ## 📸 Screenshot
-
-(Add a screenshot of your app here, for example:)
-
 ```
-![Weather App Screenshot](./images/screenshot.png)
+![Weather App Screenshot]()
 ```
 
 ---
