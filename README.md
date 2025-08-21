@@ -28,8 +28,11 @@ Users can enter a city name and get the current weather conditions instantly in 
 ```
 📦 weather-app
  ┣ 📜 index.html       # Main HTML file (Bootstrap included)
- ┣ 📜 weather.js       # JavaScript with Axios API call
- ┣ 📜 style.css        # (Optional) Custom styling
+ ┣ 📜 weather2.js       # JavaScript with Axios API call
+ ┣ 📜 style.css       # custom styling
+ ┣ 📜 About_this_app  #basic info abt this webapp
+ ┣ 📜 linktree        #all my links so you can eexplore more of my projects
+ ┣ 📜 dummy            #idk why its here too
  ┗ 📜 README.md        # Project documentation
 ```
 
@@ -68,7 +71,7 @@ headers: {
 
 ## 📸 Screenshot
 ```
-![Weather App Screenshot]()
+![Weather App Screenshot](weather_app/weatherapi_dashboard.png)
 ```
 
 ---
@@ -99,11 +102,3 @@ Contributions, issues, and feature requests are welcome!
 Feel free to fork the repo and submit a pull request.
 
 ---
-
-## 📜 License
-
-This project is licensed under the **MIT License**.
-
----
-
-👉 Do you want me to also add a **GitHub Pages deployment guide** to this README so you can host your weather app online easily?
