@@ -70,10 +70,9 @@ headers: {
 ---
 
 ## 📸 Screenshot
-```
+
 ![Weather App Pic](weatherapi_dashboard.png)
 
-```
 
 ---
 
