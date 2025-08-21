@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App Project</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: linear-gradient(135deg, #4facfe, #00f2fe);
+      color: #222;
+    }
+
+    header {
+      background: rgba(0, 0, 0, 0.6);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    h1,
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    ul {
+      margin-left: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: rgba(0, 0, 0, 0.6);
+      color: white;
+      margin-top: 40px;
+    }
+
+    .back-btn {
+      position: fixed;
+      top: 15px;
+      left: 15px;
+      background-color: #333;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .back-btn:hover {
+      background-color: #555;
+    }
+  </style>
+</head>
+
+<body>
+  <button onclick="history.back()" class="back-btn">← Back</button>
+
+  <header>
+    <h1>🌦 Weather App</h1>
+    <p>A mini project showcasing live weather updates using API</p>
+  </header>
+
+  <section>
+    <h2>📌 Introduction</h2>
+    <p>
+      This Weather App is a simple web application that fetches real-time weather details
+      for multiple cities using the <b>Weather by API Ninjas</b> service from RapidAPI.
+      It allows users to quickly check temperature, humidity, wind speed, and sunrise/sunset timings.
+      <b> the searchbar to search ur cities and get the weather of your city</b>.
+    </p>
+  </section>
+
+  <section>
+    <h2>⚙️ Features</h2>
+    <ul>
+      <li>Displays real-time weather of multiple cities (Bangalore, Kerala, Chennai, Hyderabad, Gujarat, Goa).</li>
+      <li>Shows temperature, humidity, cloud percentage, wind speed & direction.</li>
+      <li>Includes sunrise and sunset timings.</li>
+      <li>Uses Fetch API to call external weather data.</li>
+      <li>Clean and responsive table layout for easy comparison.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>💻 Technologies Used</h2>
+    <ul>
+      <li><b>HTML</b> – Structure of the webpage</li>
+      <li><b>CSS</b> – Styling and layout</li>
+      <li><b>JavaScript</b> – Fetching and displaying API data</li>
+      <li><b>RapidAPI</b> – Weather API provider</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>🚀 How It Works</h2>
+    <p>
+      The application sends a request to the Weather API with the selected city name.
+      The API responds with JSON data containing weather details. JavaScript extracts
+      this data and updates the HTML table dynamically without refreshing the page.
+    </p>
+  </section>
+
+  <section>
+    <h2>⛔ Issues </h2>
+    <p>
+      If you see the undefined value in every place that means that api calls for today is over.so add ur api keys and
+      try just add it in the js part
+      thank you have fun using this
+    </p>
+
+
+  </section>
+
+  <footer>
+    <p>Made with ❤️ by AKSHAY N V</p>
+  </footer>
+
+</body>
+
+</html>
