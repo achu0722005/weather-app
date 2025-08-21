@@ -71,7 +71,7 @@ headers: {
 
 ## 📸 Screenshot
 ```
-![Weather App Screenshot](weather_app/weatherapi_dashboard.png)
+![Weather App Pic](./weatherapi_dashboard.png)
 ```
 
 ---
